@@ -1,0 +1,24 @@
+Bundle-Name: Ha-VIS Net REST Core
+Bundle-SymbolicName: havis.net.rest.core
+Bundle-Version: 2.6.3
+Implementation-Version: 2.6
+Bundle-ManifestVersion: 2
+Bundle-Vendor: HARTING IT_SD
+Bundle-Activator: havis.net.rest.core.osgi.Activator
+Import-Package: 
+ havis.net.rest.shared,
+ havis.net.rest.shared.data,
+ havis.net.rest.shared.provider,
+ havis.util.core,
+ havis.util.core.app,
+ havis.util.core.license,
+ havis.util.core.log,
+ javax.annotation.security,
+ javax.ws.rs,
+ javax.ws.rs.core,
+ javax.ws.rs.ext,
+ org.osgi.framework;resolution:=optional,
+ org.osgi.util.tracker;resolution:=optional
+Export-Package: 
+ havis.net.rest.core
+
