@@ -1,7 +1,7 @@
 Bundle-Name: Ha-VIS Net REST Core
 Bundle-SymbolicName: havis.net.rest.core
-Bundle-Version: 2.6.3
-Implementation-Version: 2.6
+Bundle-Version: 2.7.0
+Implementation-Version: 2.7
 Bundle-ManifestVersion: 2
 Bundle-Vendor: HARTING IT_SD
 Bundle-Activator: havis.net.rest.core.osgi.Activator
